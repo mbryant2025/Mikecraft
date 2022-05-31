@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47e2b724-c62c-4367-9640-2ff603ccbfab" name="Changes" comment="inital commit" />
+    <list default="true" id="47e2b724-c62c-4367-9640-2ff603ccbfab" name="Changes" comment="basic matrix library">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/github_dabasan_ejml_3dtools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-3dtools-0.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-3dtools-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-all-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-all-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-cdense-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-cdense-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-core-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-core-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-ddense-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-ddense-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-dsparse-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-dsparse-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-fdense-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-fdense-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-fsparse-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-fsparse-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-simple-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-simple-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-zdense-0.39-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ejml-zdense-0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsr305-3.0.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transformationMatrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testMatrix.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,30 +58,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="testMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testMatrix" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
       <module name="Mikecraft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.testMatrix" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653880578698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic matrix library">
+      <created>1653880694549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653880694549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,7 +119,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="basic matrix library" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic matrix library" />
   </component>
 </project>
