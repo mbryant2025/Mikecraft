@@ -2,7 +2,7 @@ import org.ejml.data.DMatrix4;
 import org.ejml.data.DMatrix4x4;
 import org.ejml.dense.fixed.CommonOps_DDF4;
 
-public class camera {
+public class Camera {
 
     public static DMatrix4x4 cameraMatrix(DMatrix4 position, double x, double y, double z, DMatrix4 forward, DMatrix4 right, DMatrix4 up) {
 

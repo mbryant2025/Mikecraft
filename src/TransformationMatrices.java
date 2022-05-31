@@ -2,7 +2,7 @@ import org.ejml.data.DMatrix4;
 import org.ejml.data.DMatrix4x4;
 import org.ejml.dense.fixed.CommonOps_DDF4;
 
-public class transformationMatrices {
+public class TransformationMatrices {
 
     public static DMatrix4 translate(DMatrix4 v, double tx, double ty, double tz) {
 
